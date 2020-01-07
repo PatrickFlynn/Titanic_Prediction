@@ -1,6 +1,7 @@
 fileName               date                 description                                     status    publicScore  privateScore  
 ---------------------  -------------------  ----------------------------------------------  --------  -----------  ------------  
-submission.csv         2020-01-03 21:59:21  Random Forest                                   pending   None         None          
+submission.csv         2020-01-07 01:03:20  Random Forest                                   complete  0.74162      None          
+submission.csv         2020-01-03 21:59:21  Random Forest                                   complete  0.75119      None          
 submission.csv         2020-01-03 21:58:21  Random Forest                                   error     None         None          
 submission.csv         2020-01-03 21:57:44  Random Forest                                   error     None         None          
 dec_tree_feat_eng.csv  2018-07-24 02:23:51  Decision tree with feature engineering!         complete  0.78468      None          
