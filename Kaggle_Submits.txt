@@ -1,5 +1,7 @@
 fileName               date                 description                                     status    publicScore  privateScore  
 ---------------------  -------------------  ----------------------------------------------  --------  -----------  ------------  
+submission.csv         2020-01-12 00:45:09  Random Forest                                   complete  0.80861      None          
+submission.csv         2020-01-07 03:00:57  Random Forest                                   complete  0.77511      None          
 submission.csv         2020-01-07 01:03:20  Random Forest                                   complete  0.74162      None          
 submission.csv         2020-01-03 21:59:21  Random Forest                                   complete  0.75119      None          
 submission.csv         2020-01-03 21:58:21  Random Forest                                   error     None         None          
