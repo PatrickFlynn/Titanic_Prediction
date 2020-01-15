@@ -1,5 +1,8 @@
 fileName               date                 description                                     status    publicScore  privateScore  
 ---------------------  -------------------  ----------------------------------------------  --------  -----------  ------------  
+submission.csv         2020-01-15 02:41:27  Ensemble voting - rf, gb, dt, svc               complete  0.75598      None          
+submission.csv         2020-01-15 02:20:00  Out of the box XGBoost                          complete  0.77033      None          
+submission.csv         2020-01-15 02:14:17  RF and XGBoost Voter                            complete  0.76076      None          
 submission.csv         2020-01-12 00:45:09  Random Forest                                   complete  0.80861      None          
 submission.csv         2020-01-07 03:00:57  Random Forest                                   complete  0.77511      None          
 submission.csv         2020-01-07 01:03:20  Random Forest                                   complete  0.74162      None          
