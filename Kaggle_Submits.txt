@@ -1,5 +1,8 @@
 fileName               date                 description                                     status    publicScore  privateScore  
 ---------------------  -------------------  ----------------------------------------------  --------  -----------  ------------  
+submission.csv         2020-01-25 02:31:47  Keras with Train Test Split                     complete  0.75598      None          
+submission.csv         2020-01-25 02:21:36  Keras with more layers                          complete  0.76076      None          
+submission.csv         2020-01-24 06:09:55  Keras Deep learning                             complete  0.77033      None          
 submission.csv         2020-01-15 02:41:27  Ensemble voting - rf, gb, dt, svc               complete  0.75598      None          
 submission.csv         2020-01-15 02:20:00  Out of the box XGBoost                          complete  0.77033      None          
 submission.csv         2020-01-15 02:14:17  RF and XGBoost Voter                            complete  0.76076      None          
