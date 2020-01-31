@@ -15,13 +15,13 @@ class Data():
         
         self.data = self.impute_missing()
         
-        self.data = self.process_age()
-        
         self.data = self.process_cabins()
         
         self.data = self.process_dummies()
         
         self.data = self.engineer_features()
+
+        self.data = self.process_age()
         
         self.data = self.drop_cols()
         
@@ -54,9 +54,17 @@ class Data():
         
         df = self.data
         
-        mean_age_by_gender = df.groupby('Sex').mean()['Age'].to_dict()
-        null_age = df.loc[df['Age'].isna(), :].Sex.map(mean_age_by_gender)
-        df.loc[null_age.index, 'Age'] = null_age
+        #mean_age_by_gender = df.groupby('Sex').mean()['Age'].to_dict()
+        #null_age = df.loc[df['Age'].isna(), :].Sex.map(mean_age_by_gender)
+        #df.loc[null_age.index, 'Age'] = null_age
+
+        t = pd.read_csv('ages.csv')
+
+        t = t.set_index(['Sex', 'Pclass', 'Titles'])
+        
+        for index, row in df.loc[df['Age'].isna(), :].iterrows():
+            
+            df.loc[index, 'Age'] = t.loc[(row['Sex'], row['Pclass'], row['Titles']), 'Age']
         
         return df
     
