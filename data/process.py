@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 class Data():
     
@@ -22,6 +23,8 @@ class Data():
         self.data = self.engineer_features()
 
         self.data = self.process_age()
+
+        self.data = self.scale_col()
         
         self.data = self.drop_cols()
         
@@ -112,6 +115,18 @@ class Data():
 
         self.droppers.extend(['Parch', 'SibSp', 'Cabin'])
         
+        return df
+
+    def scale_col(self):
+
+        df = self.data
+
+        ss = StandardScaler()
+
+        df.loc[:, 'Age'] = ss.fit_transform(np.array(df['Age']).reshape(-1,1))
+
+        df.loc[:, 'Fare'] = ss.fit_transform(np.array(df['Fare']).reshape(-1,1))
+
         return df
     
     def drop_cols(self):

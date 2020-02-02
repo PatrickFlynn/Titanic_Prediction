@@ -1,20 +1,22 @@
-fileName               date                 description                                     status    publicScore  privateScore  
----------------------  -------------------  ----------------------------------------------  --------  -----------  ------------  
-submission.csv         2020-01-31 05:01:20  Ensemble Voting with Better Age Imputation      complete  0.77033      None          
-submission.csv         2020-01-31 04:55:04  Tensor Flow Better Age Imputation               complete  0.76076      None          
-submission.csv         2020-01-25 02:31:47  Keras with Train Test Split                     complete  0.75598      None          
-submission.csv         2020-01-25 02:21:36  Keras with more layers                          complete  0.76076      None          
-submission.csv         2020-01-24 06:09:55  Keras Deep learning                             complete  0.77033      None          
-submission.csv         2020-01-15 02:41:27  Ensemble voting - rf, gb, dt, svc               complete  0.75598      None          
-submission.csv         2020-01-15 02:20:00  Out of the box XGBoost                          complete  0.77033      None          
-submission.csv         2020-01-15 02:14:17  RF and XGBoost Voter                            complete  0.76076      None          
-submission.csv         2020-01-12 00:45:09  Random Forest                                   complete  0.80861      None          
-submission.csv         2020-01-07 03:00:57  Random Forest                                   complete  0.77511      None          
-submission.csv         2020-01-07 01:03:20  Random Forest                                   complete  0.74162      None          
-submission.csv         2020-01-03 21:59:21  Random Forest                                   complete  0.75119      None          
-submission.csv         2020-01-03 21:58:21  Random Forest                                   error     None         None          
-submission.csv         2020-01-03 21:57:44  Random Forest                                   error     None         None          
-dec_tree_feat_eng.csv  2018-07-24 02:23:51  Decision tree with feature engineering!         complete  0.78468      None          
-1st_dec_tree.csv       2018-07-23 01:07:57  Decision Trees!                                 complete  0.77990      None          
-women_survive.csv      2018-07-21 21:03:17  Women survived, men did not!                    complete  0.76555      None          
-baseline.csv           2018-07-21 20:08:36  Baseline submission with a zero survival rate.  complete  0.62679      None          
+fileName               date                 description                                      status    publicScore  privateScore  
+---------------------  -------------------  -----------------------------------------------  --------  -----------  ------------  
+submission.csv         2020-02-02 00:20:08  Keras 10 layers testing                          complete  0.78947      None          
+submission.csv         2020-02-02 00:07:35  Keras Resubmit with deeper neurons 81% test acc  complete  0.77511      None          
+submission.csv         2020-02-02 00:03:05  Keras with Age/Fare Scaling                      complete  0.77033      None          
+submission.csv         2020-02-01 23:47:26  Keras - With Batch Sizing, 84% test acc          complete  0.77990      None          
+submission.csv         2020-02-01 23:26:35  Keras With Early Stopping                        complete  0.75598      None          
+submission.csv         2020-01-31 05:01:20  Ensemble Voting with Better Age Imputation       complete  0.77033      None          
+submission.csv         2020-01-31 04:55:04  Tensor Flow Better Age Imputation                complete  0.76076      None          
+submission.csv         2020-01-25 02:31:47  Keras with Train Test Split                      complete  0.75598      None          
+submission.csv         2020-01-25 02:21:36  Keras with more layers                           complete  0.76076      None          
+submission.csv         2020-01-24 06:09:55  Keras Deep learning                              complete  0.77033      None          
+submission.csv         2020-01-15 02:41:27  Ensemble voting - rf, gb, dt, svc                complete  0.75598      None          
+submission.csv         2020-01-15 02:20:00  Out of the box XGBoost                           complete  0.77033      None          
+submission.csv         2020-01-15 02:14:17  RF and XGBoost Voter                             complete  0.76076      None          
+submission.csv         2020-01-12 00:45:09  Random Forest                                    complete  0.80861      None          
+submission.csv         2020-01-07 03:00:57  Random Forest                                    complete  0.77511      None          
+submission.csv         2020-01-07 01:03:20  Random Forest                                    complete  0.74162      None          
+submission.csv         2020-01-03 21:59:21  Random Forest                                    complete  0.75119      None          
+submission.csv         2020-01-03 21:58:21  Random Forest                                    error     None         None          
+submission.csv         2020-01-03 21:57:44  Random Forest                                    error     None         None          
+dec_tree_feat_eng.csv  2018-07-24 02:23:51  Decision tree with feature engineering!          complete  0.78468      None          
